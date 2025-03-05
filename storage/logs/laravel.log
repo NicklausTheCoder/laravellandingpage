@@ -5643,3 +5643,24 @@
 #16 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('D:\\\\ilanding\\\\pub...')
 #17 {main}
 "} 
+[2025-03-05 22:20:04] local.ERROR: syntax error, unexpected identifier "Admin", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"Admin\", expecting \",\" or \";\" at D:\\ilanding\\app\\Admin\\routes.php:5)
+[stacktrace]
+#0 D:\\ilanding\\vendor\\encore\\laravel-admin\\src\\AdminServiceProvider.php(80): Illuminate\\Support\\ServiceProvider->loadRoutesFrom('D:\\\\ilanding\\\\app...')
+#1 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Encore\\Admin\\AdminServiceProvider->boot()
+#2 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1059): Illuminate\\Container\\Container->call(Array)
+#7 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1040): Illuminate\\Foundation\\Application->bootProvider(Object(Encore\\Admin\\AdminServiceProvider))
+#8 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Encore\\Admin\\AdminServiceProvider), 15)
+#9 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1041): array_walk(Array, Object(Closure))
+#10 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#11 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(286): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#12 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#13 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#14 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#15 D:\\ilanding\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#16 D:\\ilanding\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('D:\\\\ilanding\\\\pub...')
+#17 {main}
+"} 
